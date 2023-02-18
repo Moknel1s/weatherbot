@@ -7,7 +7,7 @@ MOSCOW = InlineKeyboardButton('Moscow', callback_data='moscow')
 KYIV = InlineKeyboardButton('Pushcha-Vodytsya', callback_data='kyiv')
 ISTANBUL = InlineKeyboardButton('Karaköy', callback_data='istanbul')
 NEW_YORK = InlineKeyboardButton('Long Island City', callback_data='new_york')
-TASHKENT = InlineKeyboardButton('Tashkent', callback_data='tashkent')
+TASHKENT = InlineKeyboardButton('My city', callback_data='tashkent')
 
 WEATHER = InlineKeyboardMarkup().add(MITTE, MOSCOW, KYIV, ISTANBUL, NEW_YORK, TASHKENT)
 
